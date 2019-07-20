@@ -8,7 +8,7 @@ Este script te permite configurar tu MikroTik (si tiene licencia L4) para hacer 
 
 :global ifaces 8; ---->>>>> es la cantidad de interfaces que queremos conectar a WIFI_ETECSA incluyendo la interfaz física del equipo (cambiar el 8 por la cantidad de interfaces deseadas).
 
-:global mIface "Wetecsa1"; ---->>>>> es el nombre que le daremos a la interfaz inalámbrica física (puedes cambiarlo o dejarlo asi... solo cambia lo que está entre "" <b>Antes de comenzar a pegar el script en el MikroTik hay que cambiar el nombre de la interfaz inalámbrica física por el nombre que le demos a esta variable</b>)
+:global mIface "Wetecsa1"; ---->>>>> es el nombre que le daremos a la interfaz inalámbrica física (puedes cambiarlo o dejarlo asi... solo cambia lo que está entre "") <b>Antes de comenzar a pegar el script en el MikroTik hay que cambiar el nombre de la interfaz inalámbrica física por el nombre que le demos a esta variable</b>
 
 :global prefix "Wetecsa"; ---->>>>>> es el prefijo que tendrán las interfaces, tener en cuenta que el prefijo tiene que ser el mismo de la variable mIface sin el número (cambiar solo lo que está entre "").
 
