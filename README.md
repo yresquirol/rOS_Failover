@@ -12,9 +12,9 @@ Este script te permite configurar tu MikroTik (si tiene licencia L4) para hacer 
 
 :global prefix "Wetecsa"; ---->>>>>> es el prefijo que tendrán las interfaces, tener en cuenta que el prefijo tiene que ser el mismo de la variable mIface sin el número (cambiar solo lo que está entre "").
 
-:global gw 10.204.10.1; ----->>>>>>> es el gateway/puerta de enlace que les asigna etecsa. Este IP varía así que deben aberiguar primero cual es (cambiar solo el IP).
+:global gw 10.204.10.1; ----->>>>>>> es el gateway/puerta de enlace que les asigna ETECSA. Este IP varía así que deben averiguar primero cual es (cambiar solo el IP).
 
-:global ssid "WIFI_ETECSA" --->>>>>> por su puesto este es el SSID de los AP de etecsa. Si te conectas a travez de un hotel u otro establecimiento que tenga otro nombre puedes cambiarlo (solo lo que esta entre "").
+:global ssid "WIFI_ETECSA" --->>>>>> por su puesto este es el SSID de los AP de ETECSA. Si te conectas a travez de un hotel u otro establecimiento que tenga otro nombre puedes cambiarlo (solo lo que esta entre "").
 
 <b>Te recomiendo usar el video como guía luego de haber editado el script y configurado las variables.</b>
 <b>Video:<b> https://youtu.be/UvgebCWrY4c
