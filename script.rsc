@@ -12,7 +12,7 @@ interface wireless set Wetecsa1 ssid=$ssid disabled=no
 for iface from=2 to=$ifaces  do={ interface wireless add ssid=$ssid master-interface=$mIface mode=station name="Wetecsa$iface" disabled=no }
 
 #SET DHCP CLIENTS
-for iface from=1 to=$ifaces do={ ip dhcp-client add interface="$prefix$iface" use-peer-dns=no use-peer-ntp=no disabled=no }
+for iface from=1 to=$ifaces do={ ip dhcp-client add interface="$prefix$iface" use-peer-dns=no use-peer-ntp=no disabled=no add-default-route=no }
 
 #SET DNS SERVERS
 ip dns set servers=181.225.231.110,181.225.231.120,181.225.233.30,181.225.233.40 allow-remote-requests=yes
